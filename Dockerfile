@@ -1,4 +1,4 @@
-FROM openjdk:8u212-jre-alpine
+FROM adoptopenjdk/openjdk8-openj9:alpine-slim
 
 ARG kafka_version=2.3.0
 ARG scala_version=2.12
